@@ -1,0 +1,17 @@
+{
+    "name": "unit-converter.liu-xiao-guo",
+    "description": "description of unit-converter",
+    "architecture": "@CLICK_ARCH@",
+    "title": "unit-converter",
+    "hooks": {
+        "unit-converter": {
+            "apparmor": "unit-converter/unit-converter.apparmor",
+            "desktop":  "unit-converter/unit-converter.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
